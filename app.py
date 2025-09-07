@@ -53,7 +53,7 @@ class QQMusic:
         self.lyric_url = 'https://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric_new.fcg'
 
     def set_cookies(self, cookie_str):
-        cookies = {HgYSHWIDXFA5UwdAXRAUDGxSWFpoRwYNVkRGQzwTU1JuWFNJRxYfBjtYWlNzBBYmHRAFUm1dQg06HAEcHRwUCjMAGAYzVlFJRyQ%2BIhosXVViCFAfUk1PWzsGClM%2BWlJJX0RAVjsDClprWlVJW0REW25cV1NoRxEUDjQHHxYhUwgoGwkYEhAFQzMKCQoxPgwdVkVbAzACBw0MAgFEW1}
+        cookies = {MAgFEW1}
         for cookie in cookie_str.split('; '):
             key, value = cookie.split('=', 1)
             cookies[key] = value
